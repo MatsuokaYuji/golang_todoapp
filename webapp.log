@@ -1,0 +1,19 @@
+2022/12/29 14:20:24 main.go:21: test
+2022/12/29 14:36:08 main.go:23: test
+2022/12/29 14:36:08 main.go:24: &{0 {webapp.sql 0xc0000c60e0} 0 {0 0} [0xc0000de000] map[] 0 1 0xc00008e0c0 false map[0xc0000de000:map[0xc0000de000:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x40caa60}
+2022/12/29 15:21:21 main.go:23: test
+2022/12/29 15:21:21 main.go:24: &{0 {webapp.sql 0xc000064120} 0 {0 0} [0xc0001a4090] map[] 0 1 0xc000024120 false map[0xc0001a4090:map[0xc0001a4090:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x40cd960}
+2022/12/29 15:21:21 users.go:27: sql: converting argument $1 type: unsupported type func() uuid.UUID, a func
+2022/12/29 15:22:20 main.go:23: test
+2022/12/29 15:22:20 main.go:24: &{0 {webapp.sql 0xc000064120} 0 {0 0} [0xc0001a4090] map[] 0 1 0xc000024120 false map[0xc0001a4090:map[0xc0001a4090:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x40cda00}
+2022/12/29 15:29:51 main.go:23: test
+2022/12/29 15:29:51 main.go:24: &{0 {webapp.sql 0xc000064120} 0 {0 0} [0xc00012c090] map[] 0 1 0xc000024120 false map[0xc00012c090:map[0xc00012c090:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x40cd660}
+2022/12/29 15:31:28 main.go:23: test
+2022/12/29 15:31:28 main.go:24: &{0 {webapp.sql 0xc0000c8100} 0 {0 0} [0xc0000da120] map[] 0 1 0xc00008e0c0 false map[0xc0000da120:map[0xc0000da120:true]] map[] 0 0 0 0 <nil> 0 0 0 0 0x40cd680}
+2022/12/29 15:54:09 todos.go:23: no such table: todos
+2022/12/29 17:05:22 todos.go:99: near "where": syntax error
+2022/12/29 23:22:14 main.go:44: {1 30fa80fe-8784-11ed-9b35-c2272208a9b7 aaaa@example.com 1 2022-12-29 23:22:14.551058 +0900 +0900}
+2022/12/29 23:27:21 main.go:44: {1 30fa80fe-8784-11ed-9b35-c2272208a9b7 aaaa@example.com 1 2022-12-29 23:22:14.551058 +0900 +0900}
+2022/12/29 23:27:21 main.go:47: true
+2022/12/29 23:36:05 route_auth.go:47: sql: no rows in result set
+2022/12/29 23:36:05 server.go:3159: http: superfluous response.WriteHeader call from sample_todo/app/controllers.authenticate (route_auth.go:64)
